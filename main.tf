@@ -49,7 +49,7 @@ resource "aws_route_table_association" "myROUTE_TABLE" {
 
 resource "aws_security_group" "mtc_sg" {
   name        = "dev_sg"
-  description = "Dev security group"
+  description = "Dev_security_group"
   vpc_id      = aws_vpc.myVPC.id
 
   ingress {
